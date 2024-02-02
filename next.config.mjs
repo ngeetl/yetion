@@ -5,5 +5,6 @@ const prefix =
 const nextConfig = {
   output: 'export',
   assetPrefix: prefix,
+//   basePath: "/yetion",
   }
 export default nextConfig;
