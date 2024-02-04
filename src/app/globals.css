@@ -1,5 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
+* {
+    margin: 0;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Pretendard';
+    letter-spacing: 0.3px;
+  }
+  
+  /* @media screen and (max-width: 440px) {
+    body {
+      min-width: 270px;
+    }
+  } */
+  
+  a, li, ul {
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+  }
 
+  
