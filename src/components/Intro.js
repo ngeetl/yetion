@@ -4,14 +4,14 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div>
-      {/* background image */}
+    <div id='intro' className='pb-20'>
+      {/* Background image */}
       <div id='bg' className='w-full md:h-[260px] h-[180px] mt-12 overflow-hidden'>
-        <div><img className="w-full h-full object-cover" src="/img/bg_4.jpg" /></div>
+        <div><img className="w-full h-full object-cover" src="/img/bg_3.jpg" /></div>
       </div>
 
       <div className='container relative'>
-        {/* profile */}
+        {/* Profile */}
         <div id='profile' className='absolute -top-16 md:-top-20'>
           <div className='md:w-36 md:h-36 w-28 h-28 overflow-hidden rounded-3xl mb-2'>
             <img className='w-full h-full object-cover' src='/img/profile_img.jpg'/>
@@ -21,7 +21,7 @@ const Intro = () => {
         </div>
 
         <div className='flex md:flex-row flex-col'>
-          {/* intro text */}
+          {/* Intro text */}
           <div id='intro' className='pt-44 flex-1 w-full '>
             <div className='text-2xl mb-2'>👩🏻‍💻💝</div>
             <div className='min-w-max leading-6'>
@@ -35,15 +35,18 @@ const Intro = () => {
             </div>
           </div>
 
-          {/* contact list */}
+          {/* Contact list */}
           <ul id='contact' className='flex-1 md:pt-20 pt-8'>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mx-auto'>📧 Email : ngeetl@naver.com</li>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mt-5 mx-auto'>💻 Github : <Link href="https://github.com/ngeetl">github.com/ngeetl</Link></li>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mt-5 mx-auto'>📗 Velog : <Link href="https://velog.io/@ngeetl">velog.io/@ngeetl</Link></li>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mt-5 mx-auto'>📱 Phone : <Link href="tel: 010-7533-3855">010-7533-3855</Link></li>
-          </ul>`
+          </ul>
         </div>
+        
+      {/* Line */}
       </div>
+
     </div>
   )
 }
