@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div>
       {/* background image */}
-      <div id='bg' className=''>
+      <div id='bg' className='w-full mt-12'>
         <div><img className="w-full" src="/img/profile_background.png" /></div>
       </div>
 
@@ -26,13 +26,13 @@ const Intro = () => {
           <div id='intro' className='pt-44 flex-1 w-full'>
             <div className='text-2xl mb-2'>👩🏻‍💻💝</div>
             <div className='min-w-max leading-6'>
-            안녕하세요. 코드와 친해지고 싶은 주니어 개발자 <br/>
-            이예인입니다. 동해물과 백두산이 마르고 닳도록 <br/>
-            하느님이 보우하사 우리나라 만세 무궁화 삼천리 <br/>
-            화려강산 대한사람 대한으로 길이 보전하세. <br/>
-            드람마맘맘마 드람맘마마 다시 시작되는 드라마. <br/>
-            수펄샤 수펄샤 암웨럿미니 메킷마 메킷마 떨리는 <br/>
-            지금 옴맘마 올더탐 예암어 수퍼샤아아 수퍼샤아아<br/>
+            안녕하세요. 코드와 친해지고 싶은 주니어 개발자 가다라혹 <br/>
+            이예인입니다. 동해물과 백두산이 마르고 닳도록 가다라혹<br/>
+            하느님이 보우하사 우리나라 만세 무궁화 삼천리 가다라혹 <br/>
+            화려강산 대한사람 대한으로 길이 보전하세 가다라혹. <br/>
+            드람마맘맘마 드람맘마마 다시 시작되는 드라마 가다라혹. <br/>
+            수펄샤 수펄샤 암웨럿미니 메킷마 메킷마 떨리는 가다라혹<br/>
+            지금 옴맘마 올더탐 예암어 수퍼샤아아 수퍼샤아아 가다라혹.<br/>
             </div>
           </div>
 

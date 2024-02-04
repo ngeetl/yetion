@@ -8,7 +8,6 @@ import Picture from "@/components/Picture";
 export default function Home() {
   return (
     <>
-      <h1>Hello, Next.js!</h1>
       <Intro />
       <Stack />
       <Career />
