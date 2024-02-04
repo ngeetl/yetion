@@ -59,7 +59,7 @@ const Stack = () => {
       {/* Licence */}
       <div className='text-lg font-bold text-gray-800 mb-8'>
         🪪 License 자격증
-        <div className='mt-3'>• &nbsp;
+        <div className='mt-3 mr-1'>• 
           <Link href="#stack" onClick={openBizCommPop} className='text-base font-medium rounded-md px-2 py-1 hover:bg-slate-100 w-fit'>AWS Certified Cloud Practitioner</Link>
         </div>
       </div>
