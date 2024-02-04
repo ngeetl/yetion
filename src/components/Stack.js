@@ -24,7 +24,7 @@ const Stack = () => {
       {/* Stacks*/}
       <div className='stacks md:flex flex-row text-slate-900 text-sm text-center'>
         <ul className='md:mr-28 mb-10'>
-          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>"업무에 활용할 수 있어요"</div>
+          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>&quot;업무에 활용할 수 있어요&quot;</div>
 
           <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> 
           <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> 
@@ -36,7 +36,7 @@ const Stack = () => {
           <img src="https://img.shields.io/badge/axios-A86454?style=for-the-badge&logo=axios&logoColor=white"/>
         </ul>
         <ul className='md:mr-28 mb-10'>
-          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>"기초적인 활용이 가능해요"</div>
+          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>&quot;기초적인 활용이 가능해요&quot;</div>
 
           <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
           <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
@@ -48,7 +48,7 @@ const Stack = () => {
           <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
         </ul>
         <ul className='mb-10'>
-          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>"시도해 보았어요"</div>
+          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>&quot;시도해 보았어요&quot;</div>
 
           <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white"/>
           <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
