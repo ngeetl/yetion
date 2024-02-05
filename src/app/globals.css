@@ -31,3 +31,24 @@
     margin-top: 10px;
     margin-left: 3px;
   }
+
+
+  /* Career List */
+  
+
+  #career ul {
+    display: block;
+    /* list-style-type: square; */
+    list-style-type: none;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+  }
+
+  #career li {
+    /* list-style-type: disc; */
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }

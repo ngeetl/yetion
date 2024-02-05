@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className='md:flex hidden font-medium text-base'>
           <Link href="#intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Profile</li></Link>
           <Link href="#stack"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Stack</li></Link>
-          <Link href="#Intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Carrer</li></Link>
+          <Link href="#career"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Career</li></Link>
           <Link href="#Intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Project</li></Link>
           <Link href="#Intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>keyPicture</li></Link>
         </ul>
