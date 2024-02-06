@@ -1,7 +1,9 @@
+
 import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
+
   return (
     <div className='h-12 px-4 flex justify-center md:justify-between items-center fixed top-0 left-0 bg-white w-full z-50'>
       {/* Logo img */}
@@ -16,11 +18,11 @@ const Navbar = () => {
       </div>
       <div id='nav'>
         <ul className='md:flex hidden font-medium text-base'>
-          <Link href="#intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Profile</li></Link>
-          <Link href="#stack"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Stack</li></Link>
-          <Link href="#career"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Career</li></Link>
-          <Link href="#project"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Project</li></Link>
-          <Link href="#keypicture"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>keyPicture</li></Link>
+          <Link href="/#intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Profile</li></Link>
+          <Link href="/#stack"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Stack</li></Link>
+          <Link href="/#career"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Career</li></Link>
+          <Link href="/#project"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Project</li></Link>
+          <Link href="/#keypicture"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>keyPicture</li></Link>
         </ul>
       </div>
     </div>
