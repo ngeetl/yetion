@@ -1,7 +1,7 @@
 export default function Intem() {
     return (
         <>
-            <h1>Intem</h1>
+            <div className="pt-20">intem</div>
         </>
     );
   }

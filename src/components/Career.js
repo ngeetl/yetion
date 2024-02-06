@@ -3,7 +3,7 @@ import React from 'react'
 
 const Career = () => {
   return (
-    <div id='career' className='container'>
+    <div id='career' className='container pb-20'>
       <div className='border-solid border-t border-gray-200 h-16'></div>
 
       {/* Header */}
