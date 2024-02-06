@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { projects } from "./projects";
 
 export default function Project({ params }) {
@@ -10,11 +11,11 @@ export default function Project({ params }) {
     return (
         <div id='project_detail' className="container my-16">
             <div className="text-2xl font-bold mb-2 text-gray-800">
-                인템 <span className='text-sm font-normal text-gray-400'>{myProject.created}</span>
+                {myProject.name} <span className='text-sm font-normal text-gray-400'>{myProject.created}</span>
             </div>
 
             <div className="w-full h-full overflow-hidden p-1">
-                <img src={myProject.url} className="w-full h-full object-cover"/>
+                <img src={myProject.gifUrl} className="w-full h-full object-cover"/>
             </div>
 
             <div className="mt-6 mb-3">
@@ -46,6 +47,18 @@ export default function Project({ params }) {
                     {myProject.reviews.map(review => (
                         <li key={review}>{review}</li>
                     ))}
+                </ul>
+            </div>
+
+            <div className="mt-6 mb-3">
+                <div className="text-lg font-bold w-fit bg-slate-100 rounded-md py-1 px-3 mb-3">🔗 링크</div>
+                <ul className="text-[17px]">
+                    {Object.entries(myProject.link).map(([key, value])=> (
+                            <li key={key} className="font-bold text-xl">
+                                <span className="mr-2">{key}:</span>
+                                <span className="hover:text-violet-500 text-blue-400"><Link href={value}>{value}</Link></span>
+                            </li>
+                        ))}
                 </ul>
             </div>
         </div>

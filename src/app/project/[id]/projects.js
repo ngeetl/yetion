@@ -11,6 +11,7 @@ export const projects = [
       created: "2023.08.10 - 2023.09.17",
       stacks: ["React.js", "Firebase", "Figma", "KakaoMap Api"],
       url: "/img/project_intem.png",
+      gifUrl: "/img/project_intem.gif",
       path: "/project/intem",
       developments: [
        " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
@@ -29,7 +30,7 @@ export const projects = [
         "useEffect의 Dependency Array의 중요성"
       ],
       link: {
-        Github: "https://github.com/ngeetl/intem",
+        Github: "https://github.com/ngeetl/intem-public",
         Deployment: "https://intem.co.kr/"
       }
     },
@@ -43,6 +44,7 @@ export const projects = [
         "MongoDB", "Redux-Toolkit", "Redux-thunk", "axios",
         "Redux-persist", "JWT", "Multer" ],
       url: "/img/project_fullshop.png",
+      gifUrl: "/img/project_fullshop.gif",
       path: "/project/fullshop",
       developments: [
         " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
@@ -61,8 +63,8 @@ export const projects = [
          "useEffect의 Dependency Array의 중요성"
        ],
        link: {
-         Github: "https://github.com/ngeetl/intem",
-         Deployment: "https://intem.co.kr/"
+         Github: "https://github.com/ngeetl/SHOP_app",
+         Deployment: " https://d3idixhyot0xmi.cloudfront.net"
        }
     },
     {
@@ -77,7 +79,8 @@ export const projects = [
       created: "2023.08.10 - 2023.09.17",
       stacks: ["React.js", "Next.js", "Figma", "Vercel"],
       url: "/img/project_yetion.png",
-      path: "/project/mydiary",
+      gifUrl: "/img/project_yetion.gif",
+      path: "/project/yetion",
       developments: [
         " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
          "BrowserRouter를 이용한 라우팅으로 SPA 웹 구현",
@@ -95,8 +98,9 @@ export const projects = [
          "useEffect의 Dependency Array의 중요성"
        ],
        link: {
-         Github: "https://github.com/ngeetl/intem",
-         Deployment: "https://intem.co.kr/"
+         Github: "https://github.com/ngeetl/yetion",
+         Deployment: "https://yetion.vercel.app/",
+         Velog: "https://velog.io/@ngeetl/%EB%93%9C%EB%94%94%EC%96%B4-%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0"
        }
     },
     {
@@ -110,7 +114,8 @@ export const projects = [
       단독으로 관리 중인 실제 서비스이다. `,
       created: "2023.08.10 - 2023.09.17",
       stacks: ["React.js", "Firebase", "Figma"],
-      url: "/img/project_intem.png",
+      url: "/img/project_mydiary.png",
+      gifUrl: "/img/project_mydiary.gif",
       path: "/project/mydiary",
       developments: [
         " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
@@ -129,8 +134,7 @@ export const projects = [
          "useEffect의 Dependency Array의 중요성"
        ],
        link: {
-         Github: "https://github.com/ngeetl/intem",
-         Deployment: "https://intem.co.kr/"
+         Github: "https://github.com/ngeetl/DotNetProject1",
        }
     },
     {
@@ -142,6 +146,7 @@ export const projects = [
       stacks: ["React.js", "Redux-toolkit ", "JSON Sever", "Firebase", 
         "Express", "aixos"],
       url: "/img/project_myblog.png",
+      gifUrl: "/img/project_myblog.gif",
       path: "/project/myblog",
       developments: [
         " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
@@ -160,8 +165,8 @@ export const projects = [
          "useEffect의 Dependency Array의 중요성"
        ],
        link: {
-         Github: "https://github.com/ngeetl/intem",
-         Deployment: "https://intem.co.kr/"
+         Github: "https://github.com/ngeetl/myBLOG",
+         Deployment: "https://d3idixhyot0xmi.cloudfront.net"
        }
     },
     {
@@ -175,7 +180,8 @@ export const projects = [
       단독으로 관리 중인 실제 서비스이다. `,
       created: "2023.08.10 - 2023.09.17",
       stacks: ["React.js", "Firebase", "Figma"],
-      url: "/img/project_intem.png",
+      url: "/img/project_gpt.png",
+      gifUrl: "/img/project_gpt.gif",
       path: "/project/gpt",
       developments: [
         " Figma를 이용해 모바일에서도 최적화된 디자인 구현",

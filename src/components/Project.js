@@ -26,12 +26,12 @@ const Project = () => {
 
                   <ul className='my-3'>
                     <li className='text-lg font-bold mb-2'>{project.name} <span className='text-base font-normal text-gray-400'>{project.created}</span></li>
-                    <li className='mb-3 mx-2'>{project.content}</li>
+                    <li className='mb-3 mx-2 text-[15px] leading-6'>{project.content}</li>
                     <li className=''>
                       <ul className='flex flex-wrap'>
                         {project.stacks.map(stack => {
                           return (
-                            <li key={stack} className='mr-2 mb-1 bg-slate-100 rounded-md py-1 px-2 w-fit text-slate-700 text-sm font-semibold'>{stack}</li>
+                            <li key={stack} className='mr-2 mb-2 bg-slate-100 rounded-md py-1 px-2 w-fit text-slate-700 text-[13px] font-semibold'>{stack}</li>
                           )
                         })}
                       </ul>
