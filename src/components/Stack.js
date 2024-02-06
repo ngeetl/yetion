@@ -17,7 +17,7 @@ const Stack = () => {
     <div id='stack' className='container'>
       <div className='border-solid border-t border-gray-200 h-16'></div>
       {/* Header */}
-      <div className='text-2xl font-bold text-gray-800 mb-8'>
+      <div className='text-xl font-bold text-gray-800 mb-8'>
       🦾 Stacks 기술 스택
       </div>
 
@@ -57,7 +57,7 @@ const Stack = () => {
       </div>
 
       {/* Licence */}
-      <div className='text-2xl font-bold text-gray-800 mb-8'>
+      <div className='text-xl font-bold text-gray-800 mb-8'>
         🪪 License 자격증
         <div className='mt-3 mr-1'>• 
           <Link href="#stack" onClick={openBizCommPop} className='text-base font-medium rounded-md px-2 py-1 hover:bg-slate-100 w-fit'>AWS Certified Cloud Practitioner</Link>

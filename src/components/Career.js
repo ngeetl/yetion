@@ -7,7 +7,7 @@ const Career = () => {
       <div className='border-solid border-t border-gray-200 h-16'></div>
 
       {/* Header */}
-      <div className='text-2xl font-bold text-gray-800 mb-8'>
+      <div className='text-xl font-bold text-gray-800 mb-8'>
       🏢 Career 경력 및 외부활동
       </div>
       

@@ -24,7 +24,7 @@ const Intro = () => {
           {/* Intro text */}
           <div id='intro' className='pt-44 flex-1 w-full '>
             <div className='text-2xl mb-2'>👩🏻‍💻💝</div>
-            <div className='min-w-max leading-6'>
+            <div className='leading-6'>
             안녕하세요. 코드와 친해지고 싶은 주니어 개발자 가다라혹 <br/>
             이예인입니다. 동해물과 백두산이 마르고 닳도록 가다라혹<br/>
             하느님이 보우하사 우리나라 만세 무궁화 삼천리 가다라혹 <br/>
