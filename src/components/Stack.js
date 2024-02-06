@@ -22,9 +22,9 @@ const Stack = () => {
       </div>
 
       {/* Stacks*/}
-      <div className='stacks md:flex flex-row text-slate-900 text-sm text-center'>
+      <div className='stacks md:flex flex-row text-slate-900 text-center'>
         <ul className='md:mr-28 mb-10'>
-          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4'>&quot;업무에 활용할 수 있어요&quot;</div>
+          <div className='bg-slate-100 rounded-lg py-2 px-6 mb-4 '>&quot;업무에 활용할 수 있어요&quot;</div>
 
           <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> 
           <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> 

@@ -36,7 +36,7 @@
   /* Career List */
   
 
-  #career ul {
+  #career ul, #project_detail ul {
     display: block;
     /* list-style-type: square; */
     list-style-type: none;
@@ -51,4 +51,14 @@
     /* list-style-type: disc; */
     display: list-item;
     text-align: -webkit-match-parent;
+  }
+
+  #project_detail li {
+      list-style-type: disc;
+      display: list-item;
+      text-align: -webkit-match-parent;
+      line-height: 1.9;
+  }
+  #project_detail div  {
+    line-height: 1.5;
   }

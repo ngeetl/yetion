@@ -17,14 +17,14 @@ const Intro = () => {
             <img className='w-full h-full object-cover' src='/img/profile_img.jpg'/>
           </div>
           <div className='font-bold text-xl'>YeinLee 이예인</div>
-          <div className='text-sm font-medium'>능동적이고 진취적인 개발자</div>
+          <div className='text-base font-medium'>능동적이고 진취적인 개발자</div>
         </div>
 
         <div className='flex md:flex-row flex-col'>
           {/* Intro text */}
           <div id='intro' className='pt-44 flex-1 w-full '>
             <div className='text-2xl mb-2'>👩🏻‍💻💝</div>
-            <div className='leading-6 mx-4'>
+            <div className='leading-7 mx-2 text-[17px]'>
             안녕하세요. 코드와 친해지고 싶은 주니어 개발자 가다라혹 <br/>
             이예인입니다. 동해물과 백두산이 마르고 닳도록 가다라혹<br/>
             하느님이 보우하사 우리나라 만세 무궁화 삼천리 가다라혹 <br/>
@@ -36,7 +36,7 @@ const Intro = () => {
           </div>
 
           {/* Contact list */}
-          <ul id='contact' className='flex-1 md:pt-20 pt-8'>
+          <ul id='contact' className='flex-1 md:pt-20 pt-8 text-[17px]'>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mx-auto'>📧 Email : ngeetl@naver.com</li>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mt-5 mx-auto'>💻 Github : <Link href="https://github.com/ngeetl">github.com/ngeetl</Link></li>
             <li className='bg-slate-100 rounded-xl px-10 py-6 md:min-w-max md:w-3/5 h-fit shadow-lg mt-5 mx-auto'>📗 Velog : <Link href="https://velog.io/@ngeetl">velog.io/@ngeetl</Link></li>
