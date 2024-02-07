@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link href="/">이예인의 포트폴리오</Link>
       </div>
       <div id='nav'>
-        <ul className='md:flex hidden font-medium text-base'>
+        <ul className='md:flex hidden font-medium text-[17px]'>
           <Link href="/#intro"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Profile</li></Link>
           <Link href="/#stack"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Stack</li></Link>
           <Link href="/#career"><li className='rounded-lg py-2 px-4 mr-2 hover:bg-slate-100'>Career</li></Link>

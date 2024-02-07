@@ -5,27 +5,27 @@ const Picture = () => {
   const keyPictures = [
     {
       url: '/img/keypicture1.jpg',
-      text: '커피를 좋아해서 카페에서 오래 일했어요' 
+      text: '사람들고 소통하고 커피를 좋아해 카페에서 오래 근무했어요' 
     },
     {
       url: '/img/keypicture2.jpg',
-      text: '새롭게 나오는 개발 정보들을 끊임없이 습득하려고 노력해요' 
+      text: '지속적으로 업데이트 되는 New! 개발 정보들을 습득하기 위해 늘 노력해요' 
     },
     {
       url: '/img/keypicture3.jpg',
-      text: '카페같은 장소에서 자기계발을 즐겨해요' 
+      text: '카페에서 다양한 아이디어를 메모하거나 자기계발하는 것을 좋아해요' 
     },
     {
       url: '/img/keypicture4.jpg',
-      text: '등산과 같이 성취감 있는 운동을 좋아해요' 
+      text: '정상이라는 목표를 달성하는 성취감 덕분에 등산을 좋아해요' 
     },
     {
       url: '/img/keypicture5.jpg',
-      text: '디자인하는 것을 좋아해서 온라인으로 직접 디자인한 엽서를 판매해 본 적 있어요' 
+      text: '디자인하는 것을 좋아해서 온라인으로 직접 제작한 엽서를 판매해봤어요' 
     },
     {
       url: '/img/keypicture6.jpg',
-      text: '동료들과 어울리는 것을 좋아해요' 
+      text: '함께하는 사람들의 소중함을 알고, 긍정적인 영향을 주고싶어요' 
     },
   ]
 

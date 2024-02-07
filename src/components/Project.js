@@ -25,8 +25,8 @@ const Project = () => {
                   </div>
 
                   <ul className='my-3'>
-                    <li className='text-lg font-bold mb-2'>{project.name} <span className='text-base font-normal text-gray-400'>{project.created}</span></li>
-                    <li className='mb-3 mx-2 text-[15px] leading-6'>{project.content}</li>
+                    <li className='text-lg font-bold mb-5'>{project.name} <span className='text-base font-normal text-gray-400'>{project.created}</span></li>
+                    <li title={`${project.name} 클릭하여 더 보기`} className='mb-7 mx-3 text-[15px] leading-7 overflow-hidden line-clamp-4'>{project.content}</li>
                     <li className=''>
                       <ul className='flex flex-wrap'>
                         {project.stacks.map(stack => {

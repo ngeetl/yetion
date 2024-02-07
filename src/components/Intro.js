@@ -16,22 +16,20 @@ const Intro = () => {
           <div className='md:w-36 md:h-36 w-28 h-28 overflow-hidden rounded-3xl mb-2'>
             <img className='w-full h-full object-cover' src='/img/profile_img.jpg'/>
           </div>
-          <div className='font-bold text-xl'>YeinLee 이예인</div>
-          <div className='text-base font-medium'>능동적이고 진취적인 개발자</div>
+          <div className='font-bold text-2xl'>YeinLee 이예인</div>
+          <div className='text-[17px] font-medium'>능동적이고 진취적인 개발자</div>
         </div>
 
         <div className='flex md:flex-row flex-col'>
           {/* Intro text */}
           <div id='intro' className='pt-44 flex-1 w-full '>
             <div className='text-2xl mb-2'>👩🏻‍💻💝</div>
-            <div className='leading-7 mx-2 text-[17px]'>
-            안녕하세요. 코드와 친해지고 싶은 주니어 개발자 가다라혹 <br/>
-            이예인입니다. 동해물과 백두산이 마르고 닳도록 가다라혹<br/>
-            하느님이 보우하사 우리나라 만세 무궁화 삼천리 가다라혹 <br/>
-            화려강산 대한사람 대한으로 길이 보전하세 가다라혹. <br/>
-            드람마맘맘마 드람맘마마 다시 시작되는 드라마 가다라혹. <br/>
-            수펄샤 수펄샤 암웨럿미니 메킷마 메킷마 떨리는 가다라혹<br/>
-            지금 옴맘마 올더탐 예암어 수퍼샤아아 수퍼샤아아 가다라혹.<br/>
+            <div className='leading-8 mr-9 text-[18px] text-justify'>
+            안녕하세요. 목표 달성을 위해 항로를 개척하는 신입 개발자 이예인입니다.
+            효율적인 커리큘럼을 만들고 자기주도적 학습을 통해 목표를 성취했습니다.
+            제가 맡은 업무를 완벽히 수행하려는 책임감으로,
+            코드 기능 구현을 위한 문제를 끝까지 해결할 수 있는 끈기있는 개발자입니다. 
+            저의 성장이 팀원의 성취로 이어지도록 공동의 성장 항로를 개척하겠습니다!🙂
             </div>
           </div>
 

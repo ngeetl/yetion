@@ -14,9 +14,37 @@ const Career = () => {
       {/* Intem */}
       <div className='my-12'>
         <ul>
-          <div className='text-slate-900 text-base font-bold my-2 w-fit bg-slate-100 rounded-lg py-1 px-4'>인템 기업 페이지 제작</div>
+          <div className='text-slate-900 text-[17px] font-bold my-2 w-fit bg-slate-100 rounded-lg py-1 px-4'>인템<span className='font-medium ml-2 text-xs text-gray-600'>경영지원팀</span></div>
+          <li>• 기간: 2019.08.20 ~ 2021.03.21</li>
+          <li>• 직무: 마케팅 부서, 거래처 관리</li>
+          <li>
+            <ul>
+              <div className='text-lg font-bold'>상세 직무 기술</div>
+              <li>
+                <ul>
+                  <div className='font-bold mb-1'>온라인 마켓 관리</div> 
+                  <li>• Figma를 활용하여 사용자 중심의 인터페이스 디자인 개발.</li>
+                  <li>• 웹사이트 브랜딩 및 사용자 경험에 맞춘 디자인 컨셉 수립.</li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <div className='font-bold mb-1'>거래처 관리</div> 
+                  <li>• Figma를 활용하여 사용자 중심의 인터페이스 디자인 개발.</li>
+                  <li>• 웹사이트 브랜딩 및 사용자 경험에 맞춘 디자인 컨셉 수립.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+      <div className='my-12'>
+        <ul>
+          <div className='text-slate-900 text-[17px] font-bold my-2 w-fit bg-slate-100 rounded-lg py-1 px-4'>인템<span className='font-medium ml-2 text-xs text-gray-600'>개발팀</span></div>
+          <li>• 기간: 2023.03.21 ~ 2023.11.20</li>
           <li>• 역할: 프론트엔드 개발자, UI/UX 디자이너</li>
-          <li>• 기술 스택: React.js, Firebase, Figma</li>
           <li>
             <ul>
               <div className='text-lg font-bold'>프로젝트 세부사항</div>

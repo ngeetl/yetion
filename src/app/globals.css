@@ -5,7 +5,7 @@
 
 * {
     margin: 0;
-    line-height: normal;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,6 +13,7 @@
     scroll-behavior: smooth;
     font-family: 'Pretendard';
     letter-spacing: 0.3px;
+    text-align: justify;
   }
   
   /* @media screen and (max-width: 440px) {
