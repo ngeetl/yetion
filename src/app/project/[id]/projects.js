@@ -12,8 +12,8 @@ export const projects = [
       gifUrl: "/img/project_intem.gif",
       path: "/project/intem",
       developments: [
-       " Figma를 이용해 모바일에서도 최적화된 디자인을 구현하였습니다.",
-        "BrowserRouter를 이용한 라우팅으로 SPA 웹을 구현하였습니다",
+       " Figma를 이용해 모바일에서도 최적화된 디자인을 구현했습니다.",
+        "BrowserRouter를 이용한 라우팅으로 SPA 웹을 구현했습니다",
         "React Suspense를 활용하여 비동기 작업으로 로딩 최적화를 진행했습니다",
         "자주 사용되는 imageViewer, modal을 재사용 가능한 컴포넌트로 독립시켜 코드의 효율성 증대시켰습니다.",
         "KakaoMap API를 연결해 동적인 지도 정보를 반영했습니다.",
@@ -22,10 +22,9 @@ export const projects = [
         "Firebase를 통해 호스팅 및 도메인 연결을 설정했습니다.",
       ],
       reviews: [
-        "스크롤이벤트를 사용하면서 observer를 사용하는 것과 아닌 것의 차이점",
-        "CSR의 SEO에 취약하여 React-Helmet을 사용하였지만 번거로워 Next.js를 사용할 예정",
-        "react suspense로 얻을 수 있는 이점", 
-        "useEffect의 Dependency Array의 중요성"
+        "Intersection Observer를 활용함으로써 불필요한 이벤트 리스닝 없이 요소의 가시성을 효율적으로 감지할 수 있었습니다.",
+        "CSR의 SEO 취약점을 보완하기 위해 React-Helmet을 사용했지만, 보다 근본적인 해결책으로 Next.js를 도입하여 서버 사이드 렌더링을 통한 SEO 친화적 구현을 계획하고 있습니다.", 
+        "useEffect의 Dependency Array는 컴포넌트의 불필요한 업데이트를 방지하여 성능을 최적화하는 데 중요임을 알게되었습니다."
       ],
       link: {
         Github: "https://github.com/ngeetl/intem-public",
@@ -47,17 +46,17 @@ export const projects = [
       gifUrl: "/img/project_fullshop.gif",
       path: "/project/fullshop",
       developments: [
-        "axios query와 데이터베이스를 이용해 페이지네이션 기능을 구현하였습니다.",
+        "axios query와 데이터베이스를 이용해 페이지네이션 기능을 구현했습니다.",
         "MongoDB를 사용한 카테고리별 필터링 및 검색 기능을 구현했습니다.",
         "React Persist 및 Redux-Thunk 미들웨어를 사용하여 UserSlice에서 각 상태(pending, fulfilled, rejected)를 효율적으로 관리했습니다.",
-        "JWT를 이용해 사용자 인증 토큰 로직을 구현하였습니다.",
+        "JWT를 이용해 사용자 인증 토큰 로직을 구현했습니다.",
         "Multer를 이용해 DiskStorage로의 접근을 가능하게 하고, Dropzone을 이용해 게시물 업로드 기능을 추가했습니다.",
-        "회원별 장바구니와 결제 기능을 구현하여 주문 내역과 팔린 갯수가 업데이트 되도록 구현하였습니.",
-        "사용자 인증에 따라 작동하는 UI/UX를 구현하였습니다.",
-        "React-Hook-From을 이용해 회원가입시 유효성 체크 기능을 추가하였습니다.",
-        "axios instance, axios intorceptors를 활용하였습니다.",
-        "React Toastify를 활용하여 토스트 기능을 구현하였습니다.",
-        "aws s3 + cloud front를 이용해 프론트단을 배포하였고, aws ec2로 서버단을 배포하였습니다.",
+        "회원별 장바구니와 결제 기능을 구현하여 주문 내역과 팔린 갯수가 업데이트 되도록 구현했습니.",
+        "사용자 인증에 따라 작동하는 UI/UX를 구현했습니다.",
+        "React-Hook-From을 이용해 회원가입시 유효성 체크 기능을 추가했습니다.",
+        "axios instance, axios intorceptors를 활용했습니다.",
+        "React Toastify를 활용하여 토스트 기능을 구현했습니다.",
+        "aws s3 + cloud front를 이용해 프론트단을 배포하였고, aws ec2로 서버단을 배포했습니다.",
        ],
        reviews: [
          `이번 프로젝트에서는 리덕스 상태 관리 서비스인 Redux-Thunk와 React Persist를 사용하였는데,
@@ -74,31 +73,24 @@ export const projects = [
       params: "yetion",
       name: "Yetion",
       content: 
-      `공기청정기 제작 및 렌탈기업을 위한 웹사이트 전체 개발 프로젝트를 주도.
-      기업 홍보와 발주 문의 및 견적 접수 기능, 
-      제품 소개를 위한 페이지로 기획부터 디자인, 
-      프론트엔드와 백엔드 개발을 포함한 전 과정을 
-      단독으로 관리 중인 실제 서비스이다. `,
-      created: "2023.08.10 - 2023.09.17",
+      `예션은 노션(Notion)에서 착안하여 만든 포트폴리오 입니다.
+      기존 노션에 존재하는 템플릿의 깔끔함과 친숙함의 장점을 살리면서,
+      프로그램이 가지고 있는 제약의 단점을 보완한 포트폴리오입니다.
+      Figma를 활용해 디자인을 기획하였고,
+      Next.js 프레임워크를 사용하여 SPA 및 서버 사이드 렌더링(SSR)을 구현했습니다.`,
+      created: "2024.01.21 - 2024.02.08",
       stacks: ["React.js", "Next.js", "Figma", "Vercel"],
       url: "/img/project_yetion.png",
       gifUrl: "/img/project_yetion.gif",
       path: "/project/yetion",
       developments: [
-        " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
-         "BrowserRouter를 이용한 라우팅으로 SPA 웹 구현",
-         "React Suspense를 활용하여 비동기 작업으로 로딩 최적화",
-         "자주 사용되는 imageViewer, modal을 재사용 가능한 컴포넌트로 코드 효율성 증대",
-         "Kakao map API를 이용해 기업 위치 추가",
-         "Firestore를 이용해 클라이언트 견적 요청 저장",
-         "Firebase authentication을 활용해 관리자 페이지 보안 설정",
-         "Firebase를 통한 배포 및 도메인 연결",
+        " Figma를 이용해 모바일에서도 최적화된 디자인을 구현했습니다.",
+         "Next.js 프레임워크를 이용해 SPA 웹과 서버 사이드 렌더링(SSR)을 구현했습니다",
+         "다이내믹 라우팅을 이용한 경로 설정을 최적화했습니다.",
+         "Vercel을 통해 배포했습니다.",
        ],
        reviews: [
-         "스크롤이벤트를 사용하면서 observer를 사용하는 것과 아닌 것의 차이점",
-         "CSR의 SEO에 취약하여 React-Helmet을 사용하였지만 번거로워 Next.js를 사용할 예정",
-         "react suspense로 얻을 수 있는 이점", 
-         "useEffect의 Dependency Array의 중요성"
+        "Next.js의 다양한 기능을 활용함으로써 개발 과정을 단순화할 수 있으며, Vercel을 통한 효율적인 배포 관리를 경험해 볼 수 있었습니다.",
        ],
        link: {
          Github: "https://github.com/ngeetl/yetion",
@@ -112,7 +104,7 @@ export const projects = [
       content: `사용자에게 랜덤으로 선택된 주제를 제공하여 일기 작성을 유도하는 ASP.NET Core 기반 웹 애플리케이션입니다. 
                 이를 통해 매일 작성하는 일기 내용의 단조로움을 탈피하고 사용자들에게 효율성을 주고자 하는 목적으로 제작했습니다. 
                 쿠키 인증에 기반한 로그인 로직을 구현하였고, 인증된 사용자에게만 CRUD 구현이 가능한 나만의 일기장 서비스입니다.`,
-      created: "2024.01.20 - 2023.02.02",
+      created: "2024.01.20 - 2024.02.02",
       stacks: ["ASP.Net core", "Javascript", "MariaDB", "BootStrap", "Jquery"],
       url: "/img/project_mydiary.png",
       gifUrl: "/img/project_mydiary.gif",

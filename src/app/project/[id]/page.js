@@ -20,7 +20,7 @@ export default function Project({ params }) {
 
             <div className="mt-6 mb-3">
                 <div className="text-lg font-bold w-fit bg-slate-100 rounded-md py-1 px-3 mb-3">🔎 프로젝트 소개</div>
-                <div className="text-[17px]">{myProject.content}</div>    
+                <div className="text-left text-[17px]">{myProject.content}</div>    
             </div>
 
             <div className="mt-6 mb-3">
