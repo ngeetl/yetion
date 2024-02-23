@@ -7,6 +7,7 @@ Figma를 활용해 디자인을 기획하였고, Next.js 프레임워크를 사�
 
 #### Yetion 바로가기: https://yetion.vercel.app/
 #### Velog - Yetion 제작기 바로가기: https://velog.io/@ngeetl/%EB%93%9C%EB%94%94%EC%96%B4-%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0
+#### Figma - Yetion 디자인 기획 바로가기: https://www.figma.com/file/DZuXl0ODNvVd1nAyr8J4D4/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?type=design&node-id=0-1&mode=design&t=dafyR2RgYNrDpCLE-0
 
 
 
