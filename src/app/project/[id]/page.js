@@ -16,6 +16,7 @@ export default function Project({ params }) {
 
             <div className="w-full h-full overflow-hidden p-1">
                 <img src={myProject.gifUrl} className="w-full h-full object-cover"/>
+                {myProject.gifUrl2 && <img src={myProject.gifUrl2} className="w-full h-full object-cover"/>}
             </div>
 
             <div className="mt-6 mb-3">

@@ -106,8 +106,9 @@ export const projects = [
                 쿠키 인증에 기반한 로그인 로직을 구현하였고, 인증된 사용자에게만 CRUD 구현이 가능한 나만의 일기장 서비스입니다.`,
       created: "2024.01.20 - 2024.02.02",
       stacks: ["ASP.Net core", "Javascript", "MariaDB", "BootStrap", "Jquery"],
-      url: "/img/project_mydiary.png",
+      url: "/img/project_mydiary2.png",
       gifUrl: "/img/project_mydiary.gif",
+      gifUrl2: "/img/project_mydiary_login.gif",
       path: "/project/mydiary",
       developments: [
         "MVC(Model-View-Controller) 패턴을 사용하여 각 구성 요소 간의 결합도를 낮추었습니다.",
@@ -160,37 +161,33 @@ export const projects = [
     },
     {
       params: "gpt",  
-      name: "GPT 심리상담사",
+      name: "GPT 레시피",
       content: 
-      `공기청정기 제작 및 렌탈기업을 위한 웹사이트 전체 개발 프로젝트를 주도.
-      기업 홍보와 발주 문의 및 견적 접수 기능, 
-      제품 소개를 위한 페이지로 기획부터 디자인, 
-      프론트엔드와 백엔드 개발을 포함한 전 과정을 
-      단독으로 관리 중인 실제 서비스이다. `,
-      created: "2023.08.10 - 2023.09.17",
-      stacks: ["React.js", "Firebase", "Figma"],
+      `GPT-3.5-Turbo API를 활용하여 사용자의 상황과 요리 능력,
+      가지고 있는 재료들을 기반으로 맞춤형 레시피를 제공해주는 서비스입니다.
+       `,
+      created: "2024.02.16 - 2024.02.23",
+      stacks: ["React.js", "Firebase", "antd", "openAI"],
       url: "/img/project_gpt.png",
       gifUrl: "/img/project_gpt.gif",
       path: "/project/gpt",
       developments: [
-        " Figma를 이용해 모바일에서도 최적화된 디자인 구현",
-         "BrowserRouter를 이용한 라우팅으로 SPA 웹 구현",
-         "React Suspense를 활용하여 비동기 작업으로 로딩 최적화",
-         "자주 사용되는 imageViewer, modal을 재사용 가능한 컴포넌트로 코드 효율성 증대",
-         "Kakao map API를 이용해 기업 위치 추가",
-         "Firestore를 이용해 클라이언트 견적 요청 저장",
-         "Firebase authentication을 활용해 관리자 페이지 보안 설정",
-         "Firebase를 통한 배포 및 도메인 연결",
+       " GPT-3.5-Turbo 모델 API를 통합하여 사용자 입력을 인공지능으로 분석하고, 결과를 JSON 형식으로 수신하였습니다.",
+        "컴포넌트 기반 접근 방식으로 SPA 웹 애플리케이션을 구현하였습니다.",
+        "TailwindCSS를 사용하여 모바일 환경에서도 최적화된 반응형 디자인을 구현하였습니다.",
+        "사용자 입력 검증을 위해 Ant Design의 message API를 활용하였습니다.",
+        "Firebase를 이용하여 애플리케이션의 호스팅을 진행하였습니다.",
        ],
        reviews: [
-         "스크롤이벤트를 사용하면서 observer를 사용하는 것과 아닌 것의 차이점",
-         "CSR의 SEO에 취약하여 React-Helmet을 사용하였지만 번거로워 Next.js를 사용할 예정",
-         "react suspense로 얻을 수 있는 이점", 
-         "useEffect의 Dependency Array의 중요성"
+         `여러 입력 필드를 관리하기 위해 배열을 사용한 상태 관리에 직면한 어려움이 있었습니다.
+         onChange이벤트가 발생할 때 모든 필드의 값이 동일한 value를 가지는 문제였고,
+         이 문제는 반복문(map)을 사용할 때 index 값과 배열의 복사 기능을 활용하여 해결할 수 있었습니다.
+         이로인해 상태 관리에서 배열을 다룰 때는 각 요소를 고유하게 식별하는 방법의 중요성을 깊이 이해하게 되었습니다.`,
+         `GPT API를 활용하는 과정에서 API로부터 반환되는 응답 형식의 일관성 부족으로 어려움을 느꼈습니다.`
        ],
        link: {
-         Github: "https://github.com/ngeetl/intem",
-         Deployment: "https://intem.co.kr/"
+         Github: "https://github.com/ngeetl/GPTRecipe",
+         Deployment: "https://gptrecipe-ec699.web.app/"
        }
     },
     

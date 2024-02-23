@@ -14,7 +14,7 @@ const Intro = () => {
         {/* Profile */}
         <div id='profile' className='absolute -top-16 md:-top-20'>
           <div className='md:w-36 md:h-36 w-28 h-28 overflow-hidden rounded-3xl mb-2'>
-            <img className='w-full h-full object-cover' src='/img/profile_img.jpg'/>
+            <img className='w-full h-full object-cover' src='/img/profile_img2.jpg'/>
           </div>
           <div className='font-bold text-2xl'>YeinLee 이예인</div>
           <div className='text-[17px] font-medium'>능동적이고 진취적인 개발자</div>

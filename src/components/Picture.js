@@ -5,7 +5,7 @@ const Picture = () => {
   const keyPictures = [
     {
       url: '/img/keypicture1.jpg',
-      text: '사람들고 소통하고 커피를 좋아해 카페에서 오래 근무했어요' 
+      text: '사람들과 소통하고 커피를 좋아해 카페에서 오래 근무했어요' 
     },
     {
       url: '/img/keypicture2.jpg',
